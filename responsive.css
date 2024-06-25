@@ -1,0 +1,414 @@
+@media  screen and (max-width: 500px){
+   
+    body{
+        background: red;
+    }
+    .main{
+        height: 70vh;
+        max-width: 80vh;
+    }
+    .main .box{
+        height: 70vh;
+    }
+    nav{
+        max-width: 90vw;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        height: 80px;
+    }
+    nav img{
+        position: relative;
+        z-index: 10;
+        color: yellow;
+        width:100px;
+        height:60px;
+    } 
+    nav .bttn{
+        bottom: 20px;
+        right: 5px;
+    }
+    .btn #lang{
+        padding: 6px 5px;
+        border-radius: 5px;
+    }
+    .btn .eng{
+        display: none;
+    }
+    .btn-red {
+        background-color: rgb(231, 30, 30);
+        color: aliceblue;
+        padding: 5px 10px;
+        border-radius: 7px;
+        margin: 20px;
+        margin-left: 10px;
+    }
+    .btn{
+    padding: 5px 10px;
+    position: relative;
+    z-index: 10;
+    }
+    .first{
+        width: 60vw;
+    }
+    .btn-red-1{
+        background-color: red;
+        color: aliceblue;
+        font-size: 15px;
+        padding: 15px 24px;
+        border-radius: 7px;
+        font-weight: bolder;
+        }
+        .btn-red-2{
+            background-color: red;
+            color: aliceblue;
+            font-size: 18px;
+            padding: 15px 34px;
+            border-radius: 7px;
+            font-weight: bolder;
+            align-items: center;
+            }
+            .hero-buttons input{
+            padding:12.5px 150px 12.5px 10px;
+            font-weight: 500;
+            color: aliceblue;
+            font-size: 15px;
+            border-radius: 4px;    
+            background-color: rgba(23,23,23,0.2);
+            font-family: 'Poppins', sans-serif;
+            top: 80px;
+            }
+        .main input{
+            padding:10px 110px 10px 10px;
+            font-weight: 500;
+            color: aliceblue;
+            font-size: 15px;
+            border-radius: 4px;    
+            background-color: rgba(23,23,23,0.2);
+            font-family: 'Poppins', sans-serif;
+        }
+        .hero{
+            height:calc(100% - 100px);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            color: aliceblue;
+            position: relative;
+            font-family: 'Martel Sans', sans-serif;
+            gap: 10px;
+        }
+        
+        .hero> :nth-child(1){
+            font-family: 'Poppins', sans-serif;
+            font-weight: bolder;
+            font-size: 30px;
+            text-align: center;
+        }
+        .hero> :nth-child(2){
+            font-weight: 400;
+            font-size: 18px;
+            text-align: center;
+            font-family: 'Poppins', sans-serif;
+        }
+        .hero> :nth-child(3){   
+            font-weight: 400;
+            font-size: 18px;
+            padding-left: 20px;
+            font-family: 'Poppins', sans-serif;
+            text-align: center;
+        }
+        .hero-buttons{
+            display: flex;
+            height: 250px;
+            width: 100%;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .hero-buttons{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .first .con1{
+            font-size: 30px;
+        }
+        .first .con2{
+            font-size: 16px;
+    
+        }
+       section .con3 .con1{
+        font-size: 30px;
+       }
+       section .con3 .con2{
+        font-size: 16px;
+       }
+       .third{
+        display: flex;
+        justify-content: center;
+        width: 100vw;
+        height: 60vh;
+        margin: auto;
+        color: aliceblue;
+        position: relative;
+       }
+       .heading{
+        position: absolute;
+        top: -0px;
+        margin-top: 40px;
+       }
+       .secimg-1{
+        position: absolute;
+        right: -40px;
+       }
+        .third .con1{
+            font-size: 30px;
+        }
+           
+        .FAQ{
+            height: 140vh;
+            color: aliceblue;
+            background: black;
+            padding: 30px;
+            text-align: center;
+        }
+    .FAQ h1{
+        font-size: 30px;
+    }
+    .accordion {
+        background-color:rgb(45,45,45);
+        color: aliceblue;
+        cursor: pointer;
+        padding: 18px;
+        margin: auto;
+        margin-top: 20px;
+        width: 80vw;
+        height: 11vh;
+        text-align: left;
+        transition: 0.4s;
+        font-size: 18px;
+        display: flex;
+        font-family: 'Poppins', sans-serif;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .active, .accordion:hover {
+        background-color: #414141;
+      }
+      .panel {
+        padding: 18px 0px;
+        background-color: rgb(45, 45,45);
+        font-size: 18px;
+        font-family: 'Poppins', sans-serif;
+        text-align: left;
+        width: 80vw;
+        margin: auto;
+        display: none;
+        overflow: hidden;
+      }
+      .panel p{
+        padding-left: 20px;
+      }
+      .accordion:after {
+        font-size: 20px;
+        color: #414141;
+        float: right;
+        margin-left: 5px;
+      }
+      footer{
+        color: aliceblue;
+        margin:50px auto ;
+        max-width: 80vw;
+        height: 40vh;
+     }
+     footer span{
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+        color:rgba(255,255,255,0.7);
+        padding-left: 22px;
+     }
+     .footer{
+        display: flex;
+        flex-wrap: wrap;
+        color: aliceblue;
+     }
+    .footer-items{
+        display: flex;
+        flex-direction: column;    
+        margin-top: 20px; 
+        margin: 20px 20px;
+    }
+    .footer-items a{
+        padding: 5px;
+        color:rgba(255,255,255,0.7);
+        font-family: 'Poppins', sans-serif;
+        font-size: 14px;
+    }
+    footer a{
+        color:white
+    }
+    .footer> :nth-child(2){
+        padding-left: 30px;
+    }
+    
+}
+@media screen and (max-width:768px) {
+
+    body{
+        background:black;
+    }
+    .bttn{
+        bottom: 20px;
+    }
+    .btn{
+        margin-left: 20px;
+    }
+    .first{
+        flex-wrap: wrap;
+        max-width: 80vw;
+        height: 80vh;
+        margin: auto;
+        align-items: center;
+        color: aliceblue;
+        padding-top: 20px;
+        text-align: center;
+    }
+    .con1{
+    font-size: 40px;
+    }
+    .con2{
+        font-size: 18px;
+
+    }
+    .secimg{
+        position: relative;
+    }
+    .secimg video{
+        position: absolute;
+        height: 310px;
+        width: 290px;
+        right: 57px;
+    }
+    .secimg img{
+        width: 400px;
+        margin-top:18.5px;
+    }
+    .second{
+        display: flex;
+        justify-content: center;
+        max-width: 80vw;
+        height: 80vh;
+        margin: auto;
+        color: aliceblue;
+        position: relative;
+        bottom: 50px;
+        text-align: center;
+}
+.second .secimg{
+    height: 360px;
+}
+.second .secimg img{
+    width: 450px;
+}
+.second .con1{
+    font-size: 40px;
+    }
+.second .con2{
+        font-size: 18px;
+    }
+    .con3{
+        margin-top: 30px;
+    }
+.second .stranger{
+        background:black;
+        width: 230px;
+        height: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid white;
+        border-radius: 5px;
+        position: relative;
+        margin-top: 25px;
+        left: 110px;
+}
+.stranger .img img{
+    height: 60px;
+    width: 50px;
+    padding: 0px 5px;
+    margin-bottom: 12px;
+}
+.con{
+    color: aliceblue;
+    font-size: 10px;
+}.con .co{
+    font-size: 10px;
+}
+
+.loaderr{
+    height: 40px;
+    width: 70px;
+}
+.loader{
+    height: 20px;
+    width: 20px;
+    border: 3px solid ;
+    border: 3px white dashed;
+    border-radius: 50%;
+    animation: spin 2s linear infinite;
+}
+.third{
+    display: flex;
+    justify-content: center;
+    max-width: 80vw;
+    height: 80vh;
+    margin: auto;
+    align-items: center;
+    color: aliceblue;
+    text-align: center;
+}
+.third .secimg-1{
+    bottom: 70px;
+}
+.third .secimg-1 img{
+width: 520px;
+height: 370px;
+left: 20px;
+}
+.third .secimg-1 video{
+height: 350px;
+width: 320px;
+left: 120px;
+top: -110px;
+}
+.con1{
+font-size: 40px;
+font-weight: 900;
+font-family: 'Poppins', sans-serif;
+}
+.con2{
+font-size: 18px;
+font-weight: 400;
+font-family: 'Poppins', sans-serif;
+}
+
+#lang{
+    padding: 5px 35px;
+    font-family: 'Poppins', sans-serif;
+    background-color: transparent;
+    color:white;
+    margin-left: 50px;
+    margin-top: 60px;
+}
+.last i{
+    position:relative;
+    font-size:19px;
+    color:white;   
+    left: 90px;
+  }
+  .last h4{
+    padding-left: 70px;
+  }
+  
+}
